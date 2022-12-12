@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>729</width>
+    <height>678</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QwtPlot" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>711</width>
+      <height>491</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>570</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Алгоритм средней точки</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>510</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Выбрать файл</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>570</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Алгоритм отсечения выпуклым многоугольником</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>510</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>8</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Очистить</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>729</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QwtPlot</class>
+   <extends>QWidget</extends>
+   <header>qwt_plot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
